@@ -25,8 +25,8 @@ export default function ContactForm() {
     setStatus('')
 
     try {
-      // Send via formspree.io - free, no setup required
-      const response = await fetch('https://formspree.io/f/xyzwpbqa', {
+      // Send via formspree.io - send directly to email
+      const response = await fetch('https://formspree.io/f/myzlwpkb', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
