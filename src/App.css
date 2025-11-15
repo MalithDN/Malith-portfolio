@@ -720,13 +720,16 @@
 
 .tech-tags span {
   font-size: 0.75rem;
-  padding: 4px 8px;
+  padding: 6px 10px;
   background: rgba(255, 255, 255, 0.06);
   border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 4px;
+  border-radius: 6px;
   color: rgba(245, 247, 251, 0.8);
   text-transform: uppercase;
   letter-spacing: 0.3px;
+  font-weight: 500;
+  white-space: nowrap;
+  display: inline-block;
 }
 
 .card:hover {
