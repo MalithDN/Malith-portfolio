@@ -31,7 +31,25 @@ export default function Chatbot() {
       return "Hello! 👋 Feel free to ask me about the projects, skills, or how to contact."
     }
     if (msg.includes('project')) {
-      return "I have 3 featured projects: E-Commerce Platform, Task Management App, and Data Visualization Dashboard. Would you like to know more about any of them?"
+      return "I have 6 featured projects: E-Commerce Platform, Inventory Management System, Library Management App, Campus News App, AI App .NET Microsoft, and MyStudy AI-Chat-app. Would you like to know more about any of them?"
+    }
+    if (msg.includes('e-commerce')) {
+      return "E-Commerce Platform: Full-stack solution with React, TypeScript, MongoDB, and Stripe API integration for inventory management and payments."
+    }
+    if (msg.includes('inventory')) {
+      return "Inventory Management System: Streamlined platform for university faculty with real-time tracking, automated stock updates using React, TypeScript, and MongoDB."
+    }
+    if (msg.includes('library')) {
+      return "Library Management App: Web-based system built with PHP and MySQL featuring online catalog search, member/staff portals, and automated issue/return tracking."
+    }
+    if (msg.includes('campus news') || msg.includes('campus app')) {
+      return "Campus News App: Android app built with Java and Firebase for students to view real-time campus news and announcements."
+    }
+    if (msg.includes('ai app') || msg.includes('.net microsoft')) {
+      return "AI App .NET Microsoft: C# .NET application leveraging Microsoft.Extensions.AI for intelligent data processing and model integration."
+    }
+    if (msg.includes('mystudy') || msg.includes('study assistant')) {
+      return "MyStudy AI-Chat-app: Personal study assistant built with .NET and C#, offering AI-powered Q&A, topic explanations, and study support for students."
     }
     if (msg.includes('skill')) {
       return "My skills include React, TypeScript, Node.js, MongoDB, PostgreSQL, and more. Check the Skills section for the complete list!"

@@ -139,41 +139,94 @@ function App() {
                 </div>
                 <div className="card-actions">
                   <a href="#" target="_blank" rel="noreferrer">Live Demo</a>
-                  <a href="#" target="_blank" rel="noreferrer">View Code</a>
+                  <a href="https://github.com/MalithDN/mern-ecommerce-shop" target="_blank" rel="noreferrer">View Code</a>
                 </div>
               </article>
               <article className="card">
                 <div className="card-header">
-                  <h3>Task Management App</h3>
-                  <span className="card-badge">React • Firebase</span>
+                  <h3>Inventory Management System For University Faculty</h3>
+                  <span className="card-badge">React • Node.js</span>
                 </div>
-                <p>Collaborative task manager with real-time sync, drag-and-drop interface, and team collaboration features.</p>
+                <p>Streamlined inventory management platform with real-time tracking, automated stock updates, and intuitive tools designed to help university 
+                  faculty manage equipment, supplies, and resource allocation efficiently.</p>
                 <div className="tech-tags">
                   <span>React</span>
+                  <span>TypeScript</span>
+                  <span>MongoDB</span>
+                  <span>Stripe API</span>
+                </div>
+                <div className="card-actions">
+                  <a href="#" target="_blank" rel="noreferrer">Live Demo</a>
+                  <a href="https://github.com/MalithDN/Inventory-Management-System-For-University-Faculty/tree/project" target="_blank" rel="noreferrer">View Code</a>
+                </div>
+              </article>
+              <article className="card">
+                <div className="card-header">
+                  <h3>Library Management Web Application</h3>
+                  <span className="card-badge">PHP • My SQL</span>
+                </div>
+                <p>Web-based library management system with online catalog search, member and staff portals, automated issue/return tracking, and 
+                  admin tools for managing books, records, and reports</p>
+                <div className="tech-tags">
+                  <span>PHP</span>
+                  <span>SQL</span>
+
+                </div>
+                <div className="card-actions">
+                  <a href="#" target="_blank" rel="noreferrer">Live Demo</a>
+                  <a href="https://github.com/MalithDN/Library-Management-Web-Application-Project" target="_blank" rel="noreferrer">View Code</a>
+                </div>
+              </article>
+              <article className="card">
+                <div className="card-header">
+                  <h3>Campus News app</h3>
+                  <span className="card-badge">Java • Fire base</span>
+                </div>
+                <p>Campus Android app designed for students to easily view campus news, offering quick access 
+                  to real-time updates and announcements.</p>
+                <div className="tech-tags">
+                  <span>Android Studio</span>
+                  <span>Java</span>
                   <span>Firebase</span>
-                  <span>Tailwind CSS</span>
-                  <span>Framer Motion</span>
+
                 </div>
                 <div className="card-actions">
                   <a href="#" target="_blank" rel="noreferrer">Live Demo</a>
-                  <a href="#" target="_blank" rel="noreferrer">View Code</a>
+                  <a href="https://github.com/MalithDN/campus-android-app" target="_blank" rel="noreferrer">View Code</a>
                 </div>
               </article>
               <article className="card">
                 <div className="card-header">
-                  <h3>Data Visualization Dashboard</h3>
-                  <span className="card-badge">React • D3.js</span>
+                  <h3>AI App .NET Microsoft</h3>
+                  <span className="card-badge">C# • .NET</span>
                 </div>
-                <p>Interactive analytics dashboard with real-time data updates, custom charts, and export functionality.</p>
+                <p>AI-powered .NET application leveraging Microsoft.Extensions.AI for seamless model integration, intelligent data 
+                  processing, and scalable.</p>
                 <div className="tech-tags">
-                  <span>React</span>
-                  <span>D3.js</span>
-                  <span>Node.js</span>
-                  <span>PostgreSQL</span>
+                  <span>.NET</span>
+                  <span>C#</span>
+                  <span>Open AI</span>
                 </div>
                 <div className="card-actions">
                   <a href="#" target="_blank" rel="noreferrer">Live Demo</a>
-                  <a href="#" target="_blank" rel="noreferrer">View Code</a>
+                  <a href="https://github.com/MalithDN/AI-App-in-.NET-using-microsoft.Extensions.AI" target="_blank" rel="noreferrer">View Code</a>
+                </div>
+              </article>
+              <article className="card">
+                <div className="card-header">
+                  <h3>MyStudy AI-Chat-app </h3>
+                  <span className="card-badge">C# • .NET</span>
+                </div>
+                <p>Personal study assistant chat app built with .NET, offering AI-powered Q&A, topic explanations, 
+                  and organized study support tailored to students’ learning needs.</p>
+                <div className="tech-tags">
+                  <span>.NET</span>
+                  <span>C#</span>
+                  <span>Open AI</span>
+                </div>
+                <div className="card-actions">
+                  <a href="#" target="_blank" rel="noreferrer">Live Demo</a>
+                  <a href="https://github.com/MalithDN/Build-an-AI-Chat-app-using-.NET" target="_blank" rel="noreferrer">View Code</a>
                 </div>
               </article>
             </div>
