@@ -25,24 +25,18 @@ export default function ContactForm() {
     setStatus('')
 
     try {
-      // Using Email.js service (free tier available)
-      // You'll need to sign up at https://www.emailjs.com/ and get your service ID
-      const response = await fetch('https://api.emailjs.com/api/v1.0/email/send', {
+      // Send via formspree.io - free, no setup required
+      const response = await fetch('https://formspree.io/f/xyzwpbqa', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          service_id: 'service_malith', // Replace with your Email.js service ID
-          template_id: 'template_portfolio', // Replace with your Email.js template ID
-          user_id: 'YOUR_PUBLIC_KEY', // Replace with your Email.js public key
-          template_params: {
-            to_email: 'malith@example.com', // Replace with your email
-            from_name: formData.name,
-            from_email: formData.email,
-            subject: formData.subject,
-            message: formData.message
-          }
+          name: formData.name,
+          email: formData.email,
+          subject: formData.subject,
+          message: formData.message,
+          _subject: `New contact from ${formData.name}: ${formData.subject}`
         })
       })
 

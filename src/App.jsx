@@ -77,7 +77,7 @@ function App() {
                         <path d="M23.953 4.57a10 10 0 002.856-9.934c-1.674.05-3.338.142-5.009.3a15.07 15.07 0 014.062-4.306c-.01.004-.02.008-.03.01a10.934 10.934 0 01-1.561.413c1.424-1.092 2.947-2.178 4.612-3.31-1.23.023-2.437.147-3.53.285 1.396-1.162 2.919-2.3 4.56-3.431-1.747.146-3.446.374-5.12.693 1.494-1.263 3.1-2.47 4.757-3.657-1.997.25-3.94.645-5.84 1.173 1.70-1.491 3.53-2.846 5.44-4.038zM19 13v11h-4V13h4zm-9 0v11H6V13h4zm-9 0v11H0V13h4z"/>
                       </svg>
                     </a>
-                    <a href="mailto:malithdilhara56@gmail.com" className="social-link email" aria-label="Email">
+                    <a href="mailto:malithdilharanawala@gmail.com" className="social-link email" aria-label="Email">
                       <svg viewBox="0 0 24 24" fill="currentColor">
                         <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
                       </svg>
@@ -253,7 +253,7 @@ function App() {
               <div className="links">
                 <a href="https://github.com/MalithDN" target="_blank" rel="noreferrer" aria-label="GitHub">GitHub</a>
                 <a href="https://www.linkedin.com/in/malith-dilhara-9ab044354" target="_blank" rel="noreferrer" aria-label="LinkedIn">LinkedIn</a>
-                <a href="mailto:malithdilhara56@gmail.com" aria-label="Email">Email</a>
+                <a href="mailto:malithdilharanawala@gmail.com" aria-label="Email">Email</a>
               </div>
             </div>
           </section>

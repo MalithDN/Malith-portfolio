@@ -37,7 +37,7 @@ export default function Chatbot() {
       return "My skills include React, TypeScript, Node.js, MongoDB, PostgreSQL, and more. Check the Skills section for the complete list!"
     }
     if (msg.includes('contact') || msg.includes('email')) {
-      return "You can reach me at malithdilhara56@gmail.com or through the contact links at the bottom of the page."
+      return "You can reach me at malithdilharanawala@gmail.com or through the contact links at the bottom of the page."
     }
     if (msg.includes('experience') || msg.includes('work')) {
       return "I have experience in full-stack development, UI engineering, and consulting. Check the Resume section for details!"
