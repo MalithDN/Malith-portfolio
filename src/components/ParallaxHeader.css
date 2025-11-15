@@ -12,11 +12,11 @@
 
 .header-container {
   max-width: 1080px;
-  margin: 0 auto;
+  margin: 0 0 0 auto;
   padding: 0 24px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   position: relative;
   gap: 40px;
 }

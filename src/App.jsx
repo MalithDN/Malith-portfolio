@@ -474,7 +474,7 @@ function App() {
         </ScrollReveal>
         </main>
         <footer className="footer">
-          <span>© {new Date().getFullYear()} Malith Dilhara</span>
+          <span>© {new Date().getFullYear()} Malith Dilhara(MD)</span>
         </footer>
       </div>
     </>

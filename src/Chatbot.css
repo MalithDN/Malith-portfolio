@@ -2,13 +2,13 @@
   position: fixed;
   bottom: 24px;
   right: 24px;
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   border-radius: 999px;
   background: linear-gradient(135deg, #9b5cff, #61dafb);
   border: 2px solid rgba(255, 255, 255, 0.2);
   color: white;
-  font-size: 24px;
+  font-size: 42px;
   cursor: pointer;
   z-index: 998;
   display: flex;
