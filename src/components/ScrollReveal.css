@@ -1,0 +1,150 @@
+.scroll-reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) var(--delay, 0ms);
+}
+
+.scroll-reveal.up {
+  transform: translateY(40px);
+}
+
+.scroll-reveal.down {
+  transform: translateY(-40px);
+}
+
+.scroll-reveal.reveal {
+  opacity: 1;
+  transform: translateY(0);
+  animation: none;
+}
+
+/* Staggered animation for multiple children */
+.scroll-reveal.reveal > * {
+  animation: stagger-in 0.6s ease-out forwards;
+}
+
+.scroll-reveal > *:nth-child(1) { animation-delay: 0ms; }
+.scroll-reveal > *:nth-child(2) { animation-delay: 100ms; }
+.scroll-reveal > *:nth-child(3) { animation-delay: 200ms; }
+.scroll-reveal > *:nth-child(4) { animation-delay: 300ms; }
+.scroll-reveal > *:nth-child(5) { animation-delay: 400ms; }
+
+@keyframes stagger-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Parallax effect for hero section */
+.parallax-text {
+  position: relative;
+}
+
+/* Text reveal animations */
+.text-reveal {
+  overflow: hidden;
+  position: relative;
+}
+
+.text-reveal-line {
+  display: inline-block;
+  animation: line-reveal 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+@keyframes line-reveal {
+  from {
+    opacity: 0;
+    transform: translateX(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Fade in scale effect */
+.fade-scale {
+  animation: fade-scale-in 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+@keyframes fade-scale-in {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Staggered card animations */
+.scroll-reveal .card {
+  opacity: 0;
+  transform: translateY(30px) scale(0.95);
+  transition: all 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+.scroll-reveal .card:nth-child(1) { transition-delay: 0ms; }
+.scroll-reveal .card:nth-child(2) { transition-delay: 150ms; }
+.scroll-reveal .card:nth-child(3) { transition-delay: 300ms; }
+
+.scroll-reveal.reveal .card {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+/* Header scroll effect */
+.header.scrolled {
+  backdrop-filter: blur(20px);
+  background: linear-gradient(180deg, rgba(10, 10, 15, 0.7), rgba(10, 10, 15, 0.25));
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+/* Section title animations on scroll */
+.section h2 {
+  transition: all 0.8s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.scroll-reveal h2 {
+  opacity: 0;
+  transform: translateY(30px);
+  filter: blur(10px);
+}
+
+.scroll-reveal.reveal h2 {
+  opacity: 1;
+  transform: translateY(0);
+  filter: blur(0);
+}
+
+/* Glow effect on scroll */
+.glow-on-scroll {
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.glow-on-scroll.active {
+  filter: drop-shadow(0 0 20px rgba(97, 218, 251, 0.6));
+}
+
+/* Floating animation on scroll */
+@keyframes float-in {
+  0% {
+    opacity: 0;
+    transform: translateY(60px) scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.scroll-reveal.reveal {
+  animation: none;
+}

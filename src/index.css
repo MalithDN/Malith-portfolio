@@ -1,0 +1,56 @@
+:root {
+  --bg: #0a0a14;
+  --text: #f5f7fb;
+  --muted: #a8b0c3;
+  --border-color: #22242a;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg: #ffffff;
+    --text: #111317;
+    --muted: #5b657a;
+    --border-color: #e7e9ee;
+  }
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #050505 0%, #0a0a0f 40%, #0d0a1a 100%);
+  color: var(--text);
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  overflow-x: hidden;
+  position: relative;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: 
+    radial-gradient(900px 450px at 15% 35%, rgba(97,218,251,0.08), transparent 80%),
+    radial-gradient(700px 350px at 85% 15%, rgba(155,92,255,0.06), transparent 80%),
+    radial-gradient(600px 300px at 50% 85%, rgba(255,110,199,0.04), transparent 80%),
+    radial-gradient(800px 400px at 70% 50%, rgba(0,245,212,0.03), transparent 80%);
+  pointer-events: none;
+  z-index: 0;
+  animation: background-shift 25s ease-in-out infinite;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html { 
+  scroll-behavior: smooth;
+}
+
