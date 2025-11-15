@@ -238,16 +238,28 @@ function App() {
           <h2>Services</h2>
           <div className="grid">
             <article className="card">
-              <h3>Web Development</h3>
-              <p>Modern, responsive websites and web apps built with React.</p>
+              <h3>Full-Stack Web Development</h3>
+              <p>End-to-end web applications with React frontend, Node.js backend, and MongoDB databases. From e-commerce platforms to inventory management systems.</p>
             </article>
             <article className="card">
-              <h3>UI Engineering</h3>
-              <p>Design systems, component libraries, accessibility and performance.</p>
+              <h3>AI & Machine Learning Integration</h3>
+              <p>Intelligent applications using OpenAI APIs, Microsoft.Extensions.AI, and .NET for smart chatbots, study assistants, and data processing solutions.</p>
             </article>
             <article className="card">
-              <h3>Consulting</h3>
-              <p>Architecture reviews, audits, and mentoring for frontend teams.</p>
+              <h3>Mobile & Android Development</h3>
+              <p>Native Android applications built with Java and Firebase. Real-time features, push notifications, and cloud synchronization for campus and social apps.</p>
+            </article>
+            <article className="card">
+              <h3>.NET & C# Solutions</h3>
+              <p>Enterprise-grade applications using .NET framework with C#. AI-powered backends, real-time processing, and scalable cloud solutions.</p>
+            </article>
+            <article className="card">
+              <h3>Database Design & Optimization</h3>
+              <p>Expert database architecture with MongoDB, PostgreSQL, MySQL, and Firebase. Optimized queries, real-time sync, and data management systems.</p>
+            </article>
+            <article className="card">
+              <h3>UI/UX & Frontend Engineering</h3>
+              <p>Modern, responsive interfaces with React, TypeScript, and Tailwind CSS. Accessibility, performance optimization, and interactive user experiences.</p>
             </article>
           </div>
         </section>
@@ -262,21 +274,51 @@ function App() {
                 <ul className="chips">
                   <li>React/Next.js</li>
                   <li>TypeScript</li>
+                  <li>JavaScript</li>
                   <li>Tailwind CSS</li>
                   <li>State Management</li>
-                  <li>Web APIs</li>
                   <li>Responsive Design</li>
+                  <li>Web APIs</li>
+                  <li>Framer Motion</li>
                 </ul>
               </div>
               <div className="skill-category">
-                <h3>Backend</h3>
+                <h3>Backend & APIs</h3>
                 <ul className="chips">
                   <li>Node.js</li>
                   <li>Express.js</li>
-                  <li>PostgreSQL</li>
-                  <li>MongoDB</li>
+                  <li>.NET/C#</li>
+                  <li>PHP</li>
                   <li>REST APIs</li>
                   <li>Authentication</li>
+                  <li>Payment Integration</li>
+                  <li>Real-time Sync</li>
+                </ul>
+              </div>
+              <div className="skill-category">
+                <h3>Databases & Cloud</h3>
+                <ul className="chips">
+                  <li>MongoDB</li>
+                  <li>PostgreSQL</li>
+                  <li>MySQL</li>
+                  <li>Firebase</li>
+                  <li>AWS</li>
+                  <li>Cloud Sync</li>
+                  <li>Database Optimization</li>
+                  <li>Query Optimization</li>
+                </ul>
+              </div>
+              <div className="skill-category">
+                <h3>Mobile & AI</h3>
+                <ul className="chips">
+                  <li>Android Development</li>
+                  <li>Java</li>
+                  <li>Android Studio</li>
+                  <li>OpenAI APIs</li>
+                  <li>Microsoft AI Extensions</li>
+                  <li>AI Integration</li>
+                  <li>Machine Learning</li>
+                  <li>Chatbot Development</li>
                 </ul>
               </div>
               <div className="skill-category">
@@ -285,9 +327,24 @@ function App() {
                   <li>Git/GitHub</li>
                   <li>Docker</li>
                   <li>CI/CD</li>
-                  <li>AWS</li>
+                  <li>Vite</li>
+                  <li>NPM/Package Management</li>
                   <li>Web Performance</li>
                   <li>Testing</li>
+                  <li>ESLint</li>
+                </ul>
+              </div>
+              <div className="skill-category">
+                <h3>Additional Skills</h3>
+                <ul className="chips">
+                  <li>Full-Stack Development</li>
+                  <li>UI/UX Engineering</li>
+                  <li>System Design</li>
+                  <li>D3.js Visualization</li>
+                  <li>Stripe Integration</li>
+                  <li>Real-time Features</li>
+                  <li>Performance Optimization</li>
+                  <li>Accessibility (A11y)</li>
                 </ul>
               </div>
             </div>
@@ -296,17 +353,48 @@ function App() {
 
         <ScrollReveal className="section-wrapper">
           <section id="contact" className="section">
-            <h2>Contact</h2>
-            <p>
-              Want to work together? Send me a message using the form below or reach out via the links.
-            </p>
-            <ContactForm />
-            <div className="contact-links">
-              <p className="contact-or">Or connect on social media:</p>
-              <div className="links">
-                <a href="https://github.com/MalithDN" target="_blank" rel="noreferrer" aria-label="GitHub">GitHub</a>
-                <a href="https://www.linkedin.com/in/malith-dilhara-9ab044354" target="_blank" rel="noreferrer" aria-label="LinkedIn">LinkedIn</a>
-                <a href="mailto:malithdilharanawala@gmail.com" aria-label="Email">Email</a>
+            <h2>Get In Touch</h2>
+            <div className="contact-container">
+              <div className="contact-form-wrapper">
+                <ContactForm />
+              </div>
+              <div className="contact-info-wrapper">
+                <h3 className="contact-subtitle">Let's Connect</h3>
+                <p className="contact-description">
+                  Have a question or want to work together? I'd love to hear from you! I'm always excited to discuss new projects, creative ideas, or opportunities to collaborate. Whether you have a question or just want to say hi, feel free to reach out!
+                </p>
+                
+                <div className="contact-details">
+                  <div className="contact-detail-item">
+                    <h4 className="contact-label">Email</h4>
+                    <a href="mailto:malithdilharanawala@gmail.com" className="contact-value">
+                      malithdilharanawala@gmail.com
+                    </a>
+                  </div>
+                  
+                  <div className="contact-detail-item">
+                    <h4 className="contact-label">Phone</h4>
+                    <a href="tel:+94778165902" className="contact-value">
+                      +94 77 816 5902
+                    </a>
+                  </div>
+                  
+                  <div className="contact-detail-item">
+                    <h4 className="contact-label">Location</h4>
+                    <p className="contact-value">
+                      Matara, Sri Lanka
+                    </p>
+                  </div>
+                </div>
+
+                <div className="contact-links">
+                  <p className="contact-or">Or connect on social media:</p>
+                  <div className="links">
+                    <a href="https://github.com/MalithDN" target="_blank" rel="noreferrer" aria-label="GitHub">GitHub</a>
+                    <a href="https://www.linkedin.com/in/malith-dilhara-9ab044354" target="_blank" rel="noreferrer" aria-label="LinkedIn">LinkedIn</a>
+                    <a href="https://twitter.com/MalithDN" target="_blank" rel="noreferrer" aria-label="Twitter">Twitter</a>
+                  </div>
+                </div>
               </div>
             </div>
           </section>
