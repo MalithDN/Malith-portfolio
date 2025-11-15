@@ -252,7 +252,7 @@ function App() {
             </article>
             <article className="card">
               <h3>.NET & C# Solutions</h3>
-              <p>Enterprise-grade applications using .NET framework with C#. AI-powered backends, real-time processing, and scalable cloud solutions.</p>
+              <p>Applications using .NET framework with C#. AI-powered backends, real-time processing, and scalable cloud solutions.</p>
             </article>
             <article className="card">
               <h3>Database Design & Optimization</h3>
