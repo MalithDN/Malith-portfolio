@@ -153,20 +153,20 @@
   align-items: center;
   gap: 24px;
   position: relative;
-  min-height: 35vh;
+  min-height: 25vh;
   overflow: hidden;
   margin-bottom: 40px;
 }
 
 .hero-content {
   display: grid;
-  gap: 20px;
+  gap: 15px;
   position: relative;
   z-index: 2;
   max-width: 55vw;
   margin-left: 5%;
   margin-right: auto;
-  padding: 60px 60px;
+  padding: 40px 40px;
   border-radius: 20px;
   background: linear-gradient(135deg, rgba(10,10,20,0.7), rgba(15,10,25,0.5));
   border: 1px solid rgba(100,108,255,0.2);
@@ -200,7 +200,7 @@
   gap: 12px;
   color: #61dafb;
   letter-spacing: 0.25em;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   text-transform: uppercase;
   font-weight: 600;
   animation: fade-in-down 0.8s ease-out 0.2s both;
@@ -272,7 +272,7 @@
 }
 
 .title {
-  font-size: clamp(3.8rem, 8vw, 5.5rem);
+  font-size: clamp(2.5rem, 6vw, 4rem);
   line-height: 1.15;
   margin: 0 0 8px 0;
   background-image: linear-gradient(135deg, #ff6ec7 0%, #ff9cc5 20%, #c7a0ff 40%, #93e1f7 60%, #61dafb 80%, #00f5d4 100%);
@@ -302,7 +302,7 @@
 .subtitle {
   margin: 0 0 16px 0;
   opacity: 0.9;
-  font-size: 1.7rem;
+  font-size: 1.3rem;
   font-weight: 500;
   letter-spacing: 0.3px;
   background-image: linear-gradient(90deg, rgba(210,215,230,0.95), rgba(155,92,255,0.9), rgba(97,218,251,0.9));
