@@ -25,22 +25,25 @@ export default function ContactForm() {
     setStatus('')
 
     try {
-      // Send via formspree.io - send directly to email
-      const response = await fetch('https://formspree.io/f/myzlwpkb', {
+      // Send via Web3Forms - free and reliable
+      const response = await fetch('https://api.web3forms.com/submit', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          name: formData.name,
-          email: formData.email,
+          access_key: '6bda7da0-1c4f-4fb9-8ab3-d94ea3db2eac',
+          from_name: formData.name,
+          from_email: formData.email,
           subject: formData.subject,
           message: formData.message,
-          _subject: `New contact from ${formData.name}: ${formData.subject}`
+          to_email: 'malithdilharanawala@gmail.com'
         })
       })
 
-      if (response.ok) {
+      const result = await response.json()
+
+      if (result.success) {
         setStatus('success')
         setFormData({ name: '', email: '', subject: '', message: '' })
         setTimeout(() => setStatus(''), 5000)
