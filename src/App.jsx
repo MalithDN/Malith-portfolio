@@ -1,4 +1,5 @@
 import './App.css'
+import profileImg from '/profile.jpg'
 import Starfield from './Starfield'
 import NeonTrails from './NeonTrails'
 import GitHubEffect from './GitHubEffect'
@@ -45,7 +46,7 @@ function App() {
               <div className="hero-columns">
                 <div className="hero-robot-column">
                   <div className="profile-circle">
-                    <img src="/profile.jpg" alt="Malith Dilhara" />
+                    <img src={profileImg} alt="Malith Dilhara" />
                   </div>
                 </div>
                 
@@ -87,7 +88,7 @@ function App() {
               </div>
               
             </div>
-            <div className="hero-photo" style={{ "--hero-photo": "url('/profile.jpg')" }} aria-hidden />
+            <div className="hero-photo" style={{ "--hero-photo": `url(${profileImg})` }} aria-hidden />
           </section>
           <ScrollReveal className="section-wrapper">
             <section id="about" className="section">
