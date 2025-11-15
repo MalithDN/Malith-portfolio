@@ -54,6 +54,15 @@ export default function Chatbot() {
     if (msg.includes('skill')) {
       return "My skills include React, TypeScript, Node.js, MongoDB, PostgreSQL, and more. Check the Skills section for the complete list!"
     }
+    if (msg.includes('certificate') || msg.includes('certification') || msg.includes('credential')) {
+      return "I have 6 professional certifications: AWS Certified Cloud Practitioner, Microsoft AI Developer Fundamentals, React Advanced Concepts, MongoDB Developer Certification, Web Security Essentials, and Android Development Mastery. Which one interests you?"
+    }
+    if (msg.includes('aws')) {
+      return "AWS Certified Cloud Practitioner: Demonstrated cloud computing fundamentals and AWS services knowledge. Certified in 2024."
+    }
+    if (msg.includes('microsoft ai') || msg.includes('ai developer')) {
+      return "Microsoft AI Developer Fundamentals: Certified in building AI-powered applications using Microsoft.Extensions.AI and .NET framework. Certified in 2024."
+    }
     if (msg.includes('contact') || msg.includes('email')) {
       return "You can reach me at malithdilharanawala@gmail.com or through the contact links at the bottom of the page."
     }
@@ -69,13 +78,31 @@ export default function Chatbot() {
     if (msg.includes('github') || msg.includes('linkedin')) {
       return "Check out my GitHub: github.com/MalithDN and LinkedIn: linkedin.com/in/malith-dilhara-9ab044354"
     }
-    if (msg.includes('design') || msg.includes('ui') || msg.includes('frontend')) {
-      return "I specialize in creating responsive, modern UI designs with great user experiences and accessibility in mind."
+    if (msg.includes('service') || msg.includes('offer')) {
+      return "I offer 6 comprehensive services: Full-Stack Web Development, AI & Machine Learning Integration, Mobile & Android Development, .NET & C# Solutions, Database Design & Optimization, and UI/UX & Frontend Engineering. Which service interests you?"
     }
-    if (msg.includes('backend') || msg.includes('database')) {
+    if (msg.includes('full-stack') || msg.includes('web development')) {
+      return "Full-Stack Web Development: End-to-end web applications with React frontend, Node.js backend, and MongoDB databases. From e-commerce platforms to inventory management systems."
+    }
+    if (msg.includes('ai') || msg.includes('machine learning') || msg.includes('intelligence')) {
+      return "AI & Machine Learning Integration: Intelligent applications using OpenAI APIs, Microsoft.Extensions.AI, and .NET for smart chatbots, study assistants, and data processing solutions."
+    }
+    if (msg.includes('mobile') || msg.includes('android')) {
+      return "Mobile & Android Development: Native Android applications built with Java and Firebase. Real-time features, push notifications, and cloud synchronization for campus and social apps."
+    }
+    if (msg.includes('.net') || msg.includes('c#')) {
+      return ".NET & C# Solutions: Enterprise-grade applications using .NET framework with C#. AI-powered backends, real-time processing, and scalable cloud solutions."
+    }
+    if (msg.includes('database') || msg.includes('optimization')) {
+      return "Database Design & Optimization: Expert database architecture with MongoDB, PostgreSQL, MySQL, and Firebase. Optimized queries, real-time sync, and data management systems."
+    }
+    if (msg.includes('design') || msg.includes('ui') || msg.includes('frontend')) {
+      return "UI/UX & Frontend Engineering: Modern, responsive interfaces with React, TypeScript, and Tailwind CSS. Accessibility, performance optimization, and interactive user experiences."
+    }
+    if (msg.includes('backend') || msg.includes('api')) {
       return "I work with Node.js, Express, and databases like MongoDB and PostgreSQL to build scalable backend systems."
     }
-    return "That's interesting! 🤔 Feel free to ask me about my projects, skills, experience, or how to contact me."
+    return "That's interesting! 🤔 Feel free to ask me about my projects, skills, services, experience, or how to contact me."
   }
 
   const handleSendMessage = () => {

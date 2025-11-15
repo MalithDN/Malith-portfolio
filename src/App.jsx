@@ -352,11 +352,92 @@ function App() {
         </ScrollReveal>
 
         <ScrollReveal className="section-wrapper">
+          <section id="certifications" className="section">
+            <h2>Certifications & Achievements</h2>
+            <div className="certifications-grid">
+              <div className="certification-card">
+                <div className="cert-header">
+                  <span className="cert-icon">🏆</span>
+                  <h3>AWS Certified Cloud Practitioner</h3>
+                </div>
+                <p className="cert-issuer">Amazon Web Services</p>
+                <p className="cert-date">2024</p>
+                <p className="cert-description">Demonstrated cloud computing fundamentals and AWS services knowledge.</p>
+                <a href="#" className="cert-link">View Credential</a>
+              </div>
+
+              <div className="certification-card">
+                <div className="cert-header">
+                  <span className="cert-icon">🚀</span>
+                  <h3>Microsoft AI Developer Fundamentals</h3>
+                </div>
+                <p className="cert-issuer">Microsoft Azure</p>
+                <p className="cert-date">2024</p>
+                <p className="cert-description">Certified in building AI-powered applications using Microsoft.Extensions.AI and .NET framework.</p>
+                <a href="#" className="cert-link">View Credential</a>
+              </div>
+
+              <div className="certification-card">
+                <div className="cert-header">
+                  <span className="cert-icon">⚛️</span>
+                  <h3>React Advanced Concepts</h3>
+                </div>
+                <p className="cert-issuer">Udemy</p>
+                <p className="cert-date">2023</p>
+                <p className="cert-description">Expert-level training in React hooks, context API, performance optimization, and state management.</p>
+                <a href="#" className="cert-link">View Credential</a>
+              </div>
+
+              <div className="certification-card">
+                <div className="cert-header">
+                  <span className="cert-icon">🗄️</span>
+                  <h3>MongoDB Developer Certification</h3>
+                </div>
+                <p className="cert-issuer">MongoDB University</p>
+                <p className="cert-date">2023</p>
+                <p className="cert-description">Proficient in database design, CRUD operations, aggregation pipelines, and optimization strategies.</p>
+                <a href="#" className="cert-link">View Credential</a>
+              </div>
+
+              <div className="certification-card">
+                <div className="cert-header">
+                  <span className="cert-icon">🔐</span>
+                  <h3>Web Security Essentials</h3>
+                </div>
+                <p className="cert-issuer">Coursera</p>
+                <p className="cert-date">2023</p>
+                <p className="cert-description">Comprehensive understanding of security best practices, authentication, and data protection.</p>
+                <a href="#" className="cert-link">View Credential</a>
+              </div>
+
+              <div className="certification-card">
+                <div className="cert-header">
+                  <span className="cert-icon">📱</span>
+                  <h3>Android Development Mastery</h3>
+                </div>
+                <p className="cert-issuer">Google Developers</p>
+                <p className="cert-date">2023</p>
+                <p className="cert-description">Expert certification in Android development with Java, Firebase integration, and real-time applications.</p>
+                <a href="#" className="cert-link">View Credential</a>
+              </div>
+            </div>
+          </section>
+        </ScrollReveal>
+
+        <ScrollReveal className="section-wrapper">
           <section id="contact" className="section">
             <h2>Get In Touch</h2>
             <div className="contact-container">
               <div className="contact-form-wrapper">
                 <ContactForm />
+                <div className="contact-links">
+                  <p className="contact-or">Or connect on social media:</p>
+                  <div className="links">
+                    <a href="https://github.com/MalithDN" target="_blank" rel="noreferrer" aria-label="GitHub">GitHub</a>
+                    <a href="https://www.linkedin.com/in/malith-dilhara-9ab044354" target="_blank" rel="noreferrer" aria-label="LinkedIn">LinkedIn</a>
+                    <a href="https://twitter.com/MalithDN" target="_blank" rel="noreferrer" aria-label="Twitter">Twitter</a>
+                  </div>
+                </div>
               </div>
               <div className="contact-info-wrapper">
                 <h3 className="contact-subtitle">Let's Connect</h3>
@@ -384,15 +465,6 @@ function App() {
                     <p className="contact-value">
                       Matara, Sri Lanka
                     </p>
-                  </div>
-                </div>
-
-                <div className="contact-links">
-                  <p className="contact-or">Or connect on social media:</p>
-                  <div className="links">
-                    <a href="https://github.com/MalithDN" target="_blank" rel="noreferrer" aria-label="GitHub">GitHub</a>
-                    <a href="https://www.linkedin.com/in/malith-dilhara-9ab044354" target="_blank" rel="noreferrer" aria-label="LinkedIn">LinkedIn</a>
-                    <a href="https://twitter.com/MalithDN" target="_blank" rel="noreferrer" aria-label="Twitter">Twitter</a>
                   </div>
                 </div>
               </div>
