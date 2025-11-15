@@ -1,4 +1,5 @@
 import './App.css'
+import profileImage from '../public/profile.jpg'
 import Starfield from './Starfield'
 import NeonTrails from './NeonTrails'
 import GitHubEffect from './GitHubEffect'
@@ -7,7 +8,7 @@ import StatLines from './StatLines'
 import Chatbot from './Chatbot'
 import Typewriter from './Typewriter'
 import TechStats from './TechStats'
-import ParallaxHeader from './components/ParallaxHeader'
+import ParallexHeader from './components/ParallaxHeader'
 import ScrollReveal from './components/ScrollReveal'
 import ContactForm from './ContactForm'
 
@@ -45,7 +46,7 @@ function App() {
               <div className="hero-columns">
                 <div className="hero-robot-column">
                   <div className="profile-circle">
-                    <img src="/profile.jpg" alt="Malith Dilhara" />
+                    <img src={profileImage} alt="Malith Dilhara" />
                   </div>
                 </div>
                 
@@ -87,7 +88,7 @@ function App() {
               </div>
               
             </div>
-            <div className="hero-photo" style={{ "--hero-photo": "url('/profile.jpg')" }} aria-hidden />
+            <div className="hero-photo" style={{ "--hero-photo": `url('${profileImage}')` }} aria-hidden />
           </section>
           <ScrollReveal className="section-wrapper">
             <section id="about" className="section">
