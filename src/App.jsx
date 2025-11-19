@@ -96,10 +96,10 @@ function App() {
               <div className="about-grid">
                 <div className="about-content">
                   <p className="about-intro">
-                    I'm a <strong>full-stack developer</strong> and <strong>ICT undergraduate</strong> at the <strong>University of Colombo</strong>, passionate about building <strong>modern, scalable, and user-focused applications</strong>.
+                    I'm a <strong>full-stack developer</strong> and <strong>ICT undergraduate</strong> at the <strong>University of Colombo</strong>, specializing in building <strong>scalable applications that deliver real value</strong>.
                   </p>
                   <p className="about-detail">
-                    I work with <strong>.NET</strong>, <strong>React</strong>, <strong>TypeScript</strong>, and <strong>Node.js</strong>, and enjoy integrating <strong>AI features</strong> to create <strong>high-performance, visually polished digital experiences</strong>. 
+                    With expertise in <strong>.NET</strong>, <strong>React</strong>, <strong>TypeScript</strong>, and <strong>Node.js</strong>, I design and develop end-to-end solutions—from <strong>responsive frontends to robust backends</strong>. I'm passionate about integrating <strong>AI capabilities</strong> to create <strong>intelligent, high-performance applications that users love</strong>.
                     <br />
                     <br />
                     <span className="availability">✦ Currently available for <strong>freelance</strong>, <strong>contract</strong>, and <strong>full-time roles</strong></span>
