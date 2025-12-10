@@ -117,8 +117,8 @@ function App() {
               Download my resume and explore my experience and education.
             </p>
             <div className="card-actions">
-              <a href="#" target="_blank" rel="noreferrer">Download PDF</a>
-              <a href="#" target="_blank" rel="noreferrer">View Online</a>
+              <a href="https://drive.google.com/uc?export=download&id=1fML--j964_mk54cBmiNbvrlK4DDqptGd" download="Malith_Dilhara_Resume.pdf">Download PDF</a>
+              <a href="https://drive.google.com/file/d/1fML--j964_mk54cBmiNbvrlK4DDqptGd/view?usp=sharing" target="_blank" rel="noreferrer">View Online</a>
             </div>
           </section>
         </ScrollReveal>
@@ -359,67 +359,56 @@ function App() {
               <div className="certification-card">
                 <div className="cert-header">
                   <span className="cert-icon">🏆</span>
-                  <h3>AWS Certified Cloud Practitioner</h3>
+                  <h3>Python Essentials 1</h3>
                 </div>
-                <p className="cert-issuer">Amazon Web Services</p>
+                <p className="cert-issuer">Cisco Network Academy</p>
                 <p className="cert-date">2024</p>
-                <p className="cert-description">Demonstrated cloud computing fundamentals and AWS services knowledge.</p>
-                <a href="#" className="cert-link">View Credential</a>
+                <p className="cert-description">"Skilled in Python programming and standard library problem‑solving.</p>
+                <a href="https://www.credly.com/badges/3dd2a98f-abb0-4424-8aff-a2b3e09c2e41/linked_in_profile" className="cert-link">View Credential</a>
               </div>
 
               <div className="certification-card">
                 <div className="cert-header">
                   <span className="cert-icon">🚀</span>
-                  <h3>Microsoft AI Developer Fundamentals</h3>
+                  <h3>Asp.Net Core 10 (.NET 10) | True Ultimate Guide (ongoing)</h3>
                 </div>
-                <p className="cert-issuer">Microsoft Azure</p>
-                <p className="cert-date">2024</p>
-                <p className="cert-description">Certified in building AI-powered applications using Microsoft.Extensions.AI and .NET framework.</p>
+                <p className="cert-issuer">Udemy Academy</p>
+                <p className="cert-date">2025</p>
+                <p className="cert-description">Ongoing ASP.NET Core 10 training on Udemy, focusing on MVC, Web APIs, SOLID principles, and advanced deployment.</p>
                 <a href="#" className="cert-link">View Credential</a>
               </div>
 
               <div className="certification-card">
                 <div className="cert-header">
                   <span className="cert-icon">⚛️</span>
-                  <h3>React Advanced Concepts</h3>
+                  <h3>Node.js Bootcamp</h3>
                 </div>
-                <p className="cert-issuer">Udemy</p>
-                <p className="cert-date">2023</p>
-                <p className="cert-description">Expert-level training in React hooks, context API, performance optimization, and state management.</p>
-                <a href="#" className="cert-link">View Credential</a>
+                <p className="cert-issuer">LetsUpgrade</p>
+                <p className="cert-date">2025</p>
+                <p className="cert-description">Successfully completed the full Node.js Bootcamp program.</p>
+                <a href="https://verify.letsupgrade.in/certificate/LUENJSAPR125311" className="cert-link">View Credential</a>
               </div>
 
               <div className="certification-card">
                 <div className="cert-header">
                   <span className="cert-icon">🗄️</span>
-                  <h3>MongoDB Developer Certification</h3>
+                  <h3>JavaScript Bootcamp</h3>
                 </div>
-                <p className="cert-issuer">MongoDB University</p>
-                <p className="cert-date">2023</p>
-                <p className="cert-description">Proficient in database design, CRUD operations, aggregation pipelines, and optimization strategies.</p>
-                <a href="#" className="cert-link">View Credential</a>
+                <p className="cert-issuer">LetsUpgrade</p>
+                <p className="cert-date">2025</p>
+                <p className="cert-description">Successfully completed the full JavaScript Bootcamp program.</p>
+                <a href="https://verify.letsupgrade.in/certificate/LUEJSMAY125357" className="cert-link">View Credential</a>
               </div>
 
               <div className="certification-card">
                 <div className="cert-header">
                   <span className="cert-icon">🔐</span>
-                  <h3>Web Security Essentials</h3>
+                  <h3>Java Bootcamp</h3>
                 </div>
-                <p className="cert-issuer">Coursera</p>
-                <p className="cert-date">2023</p>
-                <p className="cert-description">Comprehensive understanding of security best practices, authentication, and data protection.</p>
-                <a href="#" className="cert-link">View Credential</a>
-              </div>
-
-              <div className="certification-card">
-                <div className="cert-header">
-                  <span className="cert-icon">📱</span>
-                  <h3>Android Development Mastery</h3>
-                </div>
-                <p className="cert-issuer">Google Developers</p>
-                <p className="cert-date">2023</p>
-                <p className="cert-description">Expert certification in Android development with Java, Firebase integration, and real-time applications.</p>
-                <a href="#" className="cert-link">View Credential</a>
+                <p className="cert-issuer">LetsUpgrade</p>
+                <p className="cert-date">2025</p>
+                <p className="cert-description">Successfully completed the full Java Bootcamp program.</p>
+                <a href="https://verify.letsupgrade.in/certificate/LUEJAVAAPR125162" className="cert-link">View Credential</a>
               </div>
             </div>
           </section>

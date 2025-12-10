@@ -55,13 +55,22 @@ export default function Chatbot() {
       return "My skills include React, TypeScript, Node.js, MongoDB, PostgreSQL, and more. Check the Skills section for the complete list!"
     }
     if (msg.includes('certificate') || msg.includes('certification') || msg.includes('credential')) {
-      return "I have 6 professional certifications: AWS Certified Cloud Practitioner, Microsoft AI Developer Fundamentals, React Advanced Concepts, MongoDB Developer Certification, Web Security Essentials, and Android Development Mastery. Which one interests you?"
+      return "I have 5 professional certifications: Python Essentials 1 (Cisco), ASP.NET Core 10 (Udemy - ongoing), Node.js Bootcamp (LetsUpgrade), JavaScript Bootcamp (LetsUpgrade), and Java Bootcamp (LetsUpgrade). Which one interests you?"
     }
-    if (msg.includes('aws')) {
-      return "AWS Certified Cloud Practitioner: Demonstrated cloud computing fundamentals and AWS services knowledge. Certified in 2024."
+    if (msg.includes('python')) {
+      return "Python Essentials 1: Certified by Cisco Network Academy in 2024. Skilled in Python programming and standard library problem-solving."
     }
-    if (msg.includes('microsoft ai') || msg.includes('ai developer')) {
-      return "Microsoft AI Developer Fundamentals: Certified in building AI-powered applications using Microsoft.Extensions.AI and .NET framework. Certified in 2024."
+    if (msg.includes('asp.net') || msg.includes('asp net') || msg.includes('.net core')) {
+      return "ASP.NET Core 10 (.NET 10) Ultimate Guide: Currently ongoing training on Udemy. Focus on MVC, Web APIs, SOLID principles, and advanced deployment."
+    }
+    if (msg.includes('node') || msg.includes('nodejs')) {
+      return "Node.js Bootcamp: Successfully completed the full Node.js Bootcamp program through LetsUpgrade in 2025."
+    }
+    if (msg.includes('javascript')) {
+      return "JavaScript Bootcamp: Successfully completed the full JavaScript Bootcamp program through LetsUpgrade in 2025."
+    }
+    if (msg.includes('java')) {
+      return "Java Bootcamp: Successfully completed the full Java Bootcamp program through LetsUpgrade in 2025."
     }
     if (msg.includes('contact') || msg.includes('email')) {
       return "You can reach me at malithdilharanawala@gmail.com or through the contact links at the bottom of the page."

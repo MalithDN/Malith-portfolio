@@ -27,12 +27,9 @@ SCROLL_QUICK_START.md
 STATLINES_COMPLETE.md
 
 # Environment variables
-.env
-.env.local
 .env.*.local
 
 # Editor directories and files
-.vscode/*
 !.vscode/extensions.json
 .idea
 .DS_Store
@@ -42,3 +39,4 @@ thumbs.db
 *.njsproj
 *.sln
 *.sw?
+config.bat
